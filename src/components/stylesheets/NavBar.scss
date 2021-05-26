@@ -5,19 +5,10 @@
     top: 0;
     overflow: hidden;
     z-index: 1;
-    padding: 0em 1em 0em 1em;
+    padding: 0 1em 0 1em;
+    height: 6em;
     display: flex;
     justify-content: space-between;
-
-    &.dark {
-        background: #181a1b;
-        color: rgb(186, 181, 171);
-    }
-
-    &.light {
-        background: white;
-        color: black;
-    }
 }
 
     .nav-item {

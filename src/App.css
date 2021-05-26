@@ -4,32 +4,38 @@
 }
 
 .basketball-ball {
-  width: 50%;
   position: fixed;
-  height: 40vmin;
-  pointer-events: none;
+  top: 30%;
+  height: 15em;
+  z-index: 1;
 }
 
-.basketball-hoop {
-  margin-top: 1000px;
-  /* position: absolute; */
-  /* bottom: 0px; */
+.basketball-rim {
   position: absolute;
-  height: 100vmin;
-  pointer-events: none;
-  z-index: -1
+  transform: rotate(1.2deg);
+  top: 54em;
+  height: 10.7em;
+  z-index: 1
+}
+
+
+.basketball-hoop {
+  position: absolute;
+  height: 30em;
+  z-index: 0
 }
 
 .basketball-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* position: rela/tive; */
+  align-content: center;
+  margin-bottom: 100em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .basketball-ball.active {
-    animation: ball-spin infinite 20s linear;
+    animation: ball-spin infinite 10s linear;
   }
 }
 

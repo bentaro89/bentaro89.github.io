@@ -1,20 +1,40 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
-.App-logo {
+.basketball-ball {
+  width: 50%;
+  position: fixed;
   height: 40vmin;
   pointer-events: none;
 }
 
+.basketball-hoop {
+  margin-top: 1000px;
+  /* position: absolute; */
+  /* bottom: 0px; */
+  position: absolute;
+  height: 100vmin;
+  pointer-events: none;
+  z-index: -1
+}
+
+.basketball-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* position: rela/tive; */
+}
+
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .basketball-ball.active {
+    animation: ball-spin infinite 20s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #26272E;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,7 +48,7 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes ball-spin {
   from {
     transform: rotate(0deg);
   }

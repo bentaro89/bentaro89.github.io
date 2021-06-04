@@ -4,15 +4,15 @@ import './stylesheets/NavBar.scss';
 const NavBar = () => {
     return(
         <div className='nav'>
-            <div></div>
             <h2 className='nav-name'>Benedict <br></br>Tedjokusumo</h2>
-            <a
+            <a href="#footer">hihihih</a>
+            {/* <a
                 className="nav-item"
                 activeClassName="selected"
                 href='/projects'
             >
                 Projects
-            </a>
+            </a> */}
         </div>
     )
 }

@@ -1,28 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
   height: 100%;
 }
 
-.basketball-ball {
+#basketball-ball {
   position: fixed;
   top: 30%;
-  height: 15em;
+  height: 14em;
   z-index: 1;
 }
 
 .basketball-rim {
   position: absolute;
   transform: rotate(1.2deg);
-  top: 54em;
+
+  top: 56em;
   height: 10.7em;
-  z-index: 1
+  z-index: 1;
 }
 
 
 .basketball-hoop {
   position: absolute;
   height: 30em;
-  z-index: 0
+  z-index: 0;
 }
 
 .basketball-container {

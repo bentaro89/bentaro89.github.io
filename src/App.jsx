@@ -1,37 +1,34 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import NavBar from './components/NavBar'
+import Introduction from './components/Introduction'
+
 import Basketball from './assets/basketball.svg'
-import BasketballHoop from './assets/basketballHoop.svg'
+import BasketballHoop from './assets/BasketballHoop.svg'
 import rimPart from './assets/betterHoop.svg'
 import './App.css';
 
 function App() {
-  const [ball, setNavBar] = useState(false);
+  window.onscroll = function () {
+    scrollRotate();
+  };
 
-  const moveBall = () => {
-    if (window.scrollY >= 80)
-    {
-      setNavBar(true);
-    }
-    else
-    {
-      setNavBar(false);
-    }
-  }
-
-  window.addEventListener('scroll', moveBall);
+function scrollRotate() {
+    let image = document.getElementById("basketball-ball");
+    image.style.transform = "rotate(" + window.pageYOffset/4 + "deg)";
+}
   return (
     <div className='App'>
       <div className='App-header'>
         <NavBar/>
         <div className='basketball-container'>
-          <img src={Basketball} className={ball ? 'basketball-ball active' : 'basketball-ball'} alt='basketball'/>
+          <img src={Basketball} id={'basketball-ball'} alt='basketball'/>
         </div>
         <img src={BasketballHoop} className='basketball-hoop' alt='hoop'/>
         <img src={rimPart} className='basketball-rim' alt='hoop'/>
 
-        
+        {/* <Introduction></Introduction> */}
+        <h3 id= "footer">hi</h3>
       </div>
     </div>
   );

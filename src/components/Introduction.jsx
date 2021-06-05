@@ -1,11 +1,34 @@
 import React from 'react';
+import { introCards } from '../assets/images';
+import Card from './Card';
 import './stylesheets/Intro.scss';
 
 const NavBar = () => {
+    
     return(
-        <div className='main-container'>
-            <h1>I'm Ben</h1>
-            <p>hi there, I'm a rising Junior studying Computer science in Dartmouth College</p>
+        <div className='main-container' id= "footer">
+            <h1>My name is Ben</h1>
+            <p>I'm a...</p>
+            <div className='facts'>
+            <p>rising Junior studying <b style={{color: 'blue'}}>computer science</b> in <b>Dartmouth College</b></p>
+            <p><b>software engineer</b> experienced in <b>frontend, AR/VR, and mobile app</b> development</p>
+            <p><b>Bay Area</b> native that immigrated to the States from Indonesia</p>
+
+            </div>
+            <p>Click the cards to learn more about me</p>
+            <div className='intro-cards'>
+                {introCards.map((data, i) => (
+                <Card 
+                id = {i}
+                img= {data.icon}
+                color={data.color}
+                info = {data.info}/>
+                ))}
+            </div>
+
+            <h1>hi there nerds</h1>
+            
+            
         </div>
     )
 }

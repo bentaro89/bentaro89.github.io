@@ -23,12 +23,14 @@ function scrollRotate() {
         <NavBar/>
         <div className='basketball-container'>
           <img src={Basketball} id={'basketball-ball'} alt='basketball'/>
+          <Introduction/>
         </div>
+       
         <img src={BasketballHoop} className='basketball-hoop' alt='hoop'/>
-        <img src={rimPart} className='basketball-rim' alt='hoop'/>
+        {/* <img src={rimPart} className='basketball-rim' alt='hoop'/> */}
 
-        {/* <Introduction></Introduction> */}
-        <h3 id= "footer">hi</h3>
+        
+        {/* <h3 id= "footer">hi</h3> */}
       </div>
     </div>
   );

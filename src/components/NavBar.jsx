@@ -5,7 +5,7 @@ const NavBar = () => {
     return(
         <div className='nav'>
             <h2 className='nav-name'>Benedict <br></br>Tedjokusumo</h2>
-            <a href="#footer">hihihih</a>
+            <a href="#footer">About</a>
             {/* <a
                 className="nav-item"
                 activeClassName="selected"

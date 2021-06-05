@@ -1,5 +1,18 @@
 .main-container {
+    margin-top: 35em;
     width: 100%;
     background-color: #ffffff;
     color: black;
+    z-index: 1;
+}
+
+.facts {
+    display: flex;
+    // flex-direction: column;
+    justify-content: flex-start;
+}
+
+.intro-cards {
+    display: flex;
+    justify-content: space-around;
 }

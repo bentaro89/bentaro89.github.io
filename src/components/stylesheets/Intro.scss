@@ -3,7 +3,7 @@
     width: 100%;
     background-color: #ffffff;
     color: black;
-    z-index: 1;
+    z-index: 2;
 }
 
 .facts {
@@ -15,4 +15,20 @@
 .intro-cards {
     display: flex;
     justify-content: space-around;
+}
+
+.basketball-rim {
+    position: absolute;
+    transform: rotate(1.1deg);
+
+    top: 67.45em;
+    height: 10.7em;
+    z-index: 1;
+}
+
+.basketball-hoop {
+    position: absolute;
+    top: 48.5em;
+    height: 30em;
+    z-index: -1;
 }

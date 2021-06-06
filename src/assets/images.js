@@ -6,22 +6,22 @@ import corgi from './corgi.png'
 export const introCards = [
     {
         'icon': cube,
-        'color': 'black',
-        'info': 'hi there baby girl'
+        'color': 'lightgreen',
+        'info': 'I like to cube. I even entereed a couple of tournaments.'
     },
     {
         'icon': curry,
         'color': 'lightblue',
-        'info': 'hi there baby girl'
+        'info': 'I am a huge Warriors fan!'
     },
     {
         'icon': chef,
         'color': 'lightpink',
-        'info': 'hi there baby girl'
+        'info': 'I like cooking. Cooking is a passion.'
     },
     {
         'icon': corgi,
         'color': 'lightgrey',
-        'info': 'hi there baby girl'
+        'info': 'I love dogs. Look at my puppy corgi.'
     }
 ]

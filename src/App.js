@@ -24,11 +24,16 @@ function scrollRotate() {
         <div className='basketball-container'>
           <img src={Basketball} id={'basketball-ball'} alt='basketball'/>
           <Introduction/>
-        </div>
-       
-        <img src={BasketballHoop} className='basketball-hoop' alt='hoop'/>
-        {/* <img src={rimPart} className='basketball-rim' alt='hoop'/> */}
 
+        </div>
+
+        <img src={BasketballHoop} className='basketball-hoop' alt='hoop'/>
+        <img src={rimPart} className='basketball-rim' alt='hoop'/>
+        <Introduction/>
+        <Introduction/>
+
+        {/* <img src={BasketballHoop} className='basketball-hoop-2' alt='hoop'/>
+        <img src={rimPart} className='basketball-rim-2' alt='hoop'/> */}
         
         {/* <h3 id= "footer">hi</h3> */}
       </div>

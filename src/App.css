@@ -9,32 +9,46 @@ html {
 
 #basketball-ball {
   position: fixed;
-  top: 30%;
+  top: 20%;
   height: 14em;
   z-index: 1;
 }
 
 .basketball-rim {
   position: absolute;
-  transform: rotate(1.2deg);
+  transform: rotate(1.1deg);
 
-  top: 56em;
+  top: 67.45em;
   height: 10.7em;
   z-index: 1;
 }
 
 .basketball-hoop {
   position: absolute;
+  top: 48.5em;
   height: 30em;
   z-index: 0;
 }
+.basketball-hoop-2 {
+  position: absolute;
+  top: 108.5em;
+  height: 30em;
+  z-index: 0;
+}
+.basketball-rim-2 {
+  position: absolute;
+  transform: rotate(1.1deg);
 
+  top: 67.5em;
+  height: 10.7em;
+  z-index: 1;
+}
 .basketball-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  margin-bottom: 100em;
+  /* margin-bottom: 100em; */
   width: 100%;
 }
 

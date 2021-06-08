@@ -3,7 +3,7 @@ import { introCards } from '../assets/images';
 import Card from './Card';
 import './stylesheets/Intro.scss';
 
-const NavBar = () => {
+const Intro = () => {
     
     return(
         <div className='main-container' id= "about">
@@ -22,7 +22,9 @@ const NavBar = () => {
                 id = {i}
                 img= {data.icon}
                 color={data.color}
-                info = {data.info}/>
+                info = {data.info}
+                width = '10em'
+                height = '10em'/>
                 ))}
             </div>
             
@@ -32,4 +34,4 @@ const NavBar = () => {
 }
 
 
-export default NavBar;
+export default Intro;

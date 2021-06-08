@@ -1,0 +1,33 @@
+.main-container {
+    margin-top: 35em;
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
+    z-index: 2;
+}
+
+.facts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+// .basketball-rim {
+//     position: absolute;
+//     transform: rotate(1.1deg);
+
+//     top: 67.45em;
+//     height: 10.7em;
+//     z-index: 1;
+// }
+
+// .basketball-hoop {
+//     position: absolute;
+//     top: 48.5em;
+//     height: 30em;
+//     z-index: 1;
+// }

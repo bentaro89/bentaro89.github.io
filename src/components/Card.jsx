@@ -4,12 +4,13 @@ import './stylesheets/Card.scss';
 const IntroCard = (props) => {
     const [clicked, setClick] = useState(false);
     return(
-        <div className={'card'} style={{backgroundColor: props.color}} onClick={() =>setClick(!clicked)}>
+        <div className='card' style={{backgroundColor: props.color, width: props.width, height: props.height}} onClick={() =>setClick(!clicked)}>
             {clicked ?  
             <p>{props.info}</p>
             :
             <img
-            className={'card'}
+            // className='card' 
+            style={{backgroundColor: props.color, width: props.width, height: props.height}}
             src={props.img} 
             alt='cube'/>
             }

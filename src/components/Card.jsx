@@ -9,7 +9,6 @@ const IntroCard = (props) => {
             <p>{props.info}</p>
             :
             <img
-            // className='card' 
             style={{backgroundColor: props.color, width: props.width, height: props.height}}
             src={props.img} 
             alt='cube'/>

@@ -3,10 +3,12 @@ import React from 'react';
 import NavBar from './components/NavBar'
 import Introduction from './components/Introduction'
 import Projects from './components/Projects'
+import Hoop from './components/Hoop'
+
 
 import Basketball from './assets/basketball.svg'
-import BasketballHoop from './assets/BasketballHoop.svg'
-import rimPart from './assets/betterHoop.svg'
+// import BasketballHoop from './assets/BasketballHoop.svg'
+// import rimPart from './assets/betterHoop.svg'
 import './App.css';
 
 function App() {
@@ -27,10 +29,15 @@ function scrollRotate() {
           <Introduction/>
 
         </div>
-
-        <img src={BasketballHoop} className='basketball-hoop' alt='hoop'/>
-        <img src={rimPart} className='basketball-rim' alt='hoop'/>
+        <Hoop
+        hoopTop='49.3em'
+        rimTop='68.4em'/>
+        {/* <img src={BasketballHoop} className='basketball-hoop' alt='hoop'/>
+        <img src={rimPart} className='basketball-rim' alt='hoop'/> */}
         <Projects/>
+        <Hoop
+        hoopTop='135em'
+        rimTop='150.4em'/>
         <Introduction/>
         
         {/* <h3 id= "footer">hi</h3> */}

@@ -1,0 +1,16 @@
+.hoop {
+  display: flex;
+  justify-content: center;
+}
+
+.basketball-hoop {
+  position: absolute;
+  margin: auto;
+  z-index: 0;
+};
+.basketball-rim {
+  position: absolute;
+  margin: auto;
+  z-index: 1;
+  transform: rotate(.7deg)
+};

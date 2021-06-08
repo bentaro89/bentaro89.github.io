@@ -14,7 +14,7 @@ html {
   z-index: 1;
 }
 
-.basketball-rim {
+/* .basketball-rim {
   position: absolute;
   transform: rotate(1.1deg);
 
@@ -28,21 +28,7 @@ html {
   top: 48.5em;
   height: 30em;
   z-index: 0;
-}
-.basketball-hoop-2 {
-  position: absolute;
-  top: 108.5em;
-  height: 30em;
-  z-index: 0;
-}
-.basketball-rim-2 {
-  position: absolute;
-  transform: rotate(1.1deg);
-
-  top: 67.5em;
-  height: 10.7em;
-  z-index: 1;
-}
+} */
 .basketball-container {
   display: flex;
   flex-direction: row;

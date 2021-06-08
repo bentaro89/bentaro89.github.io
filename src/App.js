@@ -7,8 +7,6 @@ import Hoop from './components/Hoop'
 
 
 import Basketball from './assets/basketball.svg'
-// import BasketballHoop from './assets/BasketballHoop.svg'
-// import rimPart from './assets/betterHoop.svg'
 import './App.css';
 
 function App() {

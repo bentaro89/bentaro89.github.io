@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4508c7cd.chunk.css",
+    "main.js": "/static/js/main.f12a845c.chunk.js",
+    "main.js.map": "/static/js/main.f12a845c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f7d797af.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f7d797af.js.map",
+    "static/js/2.a9c0185d.chunk.js": "/static/js/2.a9c0185d.chunk.js",
+    "static/js/2.a9c0185d.chunk.js.map": "/static/js/2.a9c0185d.chunk.js.map",
+    "static/js/3.12943ca5.chunk.js": "/static/js/3.12943ca5.chunk.js",
+    "static/js/3.12943ca5.chunk.js.map": "/static/js/3.12943ca5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4508c7cd.chunk.css.map": "/static/css/main.4508c7cd.chunk.css.map",
+    "static/js/2.a9c0185d.chunk.js.LICENSE.txt": "/static/js/2.a9c0185d.chunk.js.LICENSE.txt",
+    "static/media/BasketballHoop.f77ffaf7.svg": "/static/media/BasketballHoop.f77ffaf7.svg",
+    "static/media/basketball.a78304aa.svg": "/static/media/basketball.a78304aa.svg",
+    "static/media/betterHoop.caaae6a5.svg": "/static/media/betterHoop.caaae6a5.svg",
+    "static/media/chef.c3a6c56b.png": "/static/media/chef.c3a6c56b.png",
+    "static/media/corgi.db4704f2.png": "/static/media/corgi.db4704f2.png",
+    "static/media/cube.92cb9bd2.svg": "/static/media/cube.92cb9bd2.svg",
+    "static/media/steph.9c8bd4f9.svg": "/static/media/steph.9c8bd4f9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7d797af.js",
+    "static/js/2.a9c0185d.chunk.js",
+    "static/css/main.4508c7cd.chunk.css",
+    "static/js/main.f12a845c.chunk.js"
+  ]
+}

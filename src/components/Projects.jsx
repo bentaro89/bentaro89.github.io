@@ -8,8 +8,7 @@ const Projects = () => {
     return(
         <div className='main-container' id= "projects">
             <h1>Projects</h1>
-            <h3>There are my projects</h3>
-            <p><b>Click</b> the cards to learn more about me</p>
+            <p><b>Click</b> the cards to learn more about my projects</p>
             <div className='intro-cards'>
                 {projectCards.map((data, i) => (
                 <Card 

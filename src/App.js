@@ -32,15 +32,11 @@ function scrollRotate() {
         <Hoop
         hoopTop='49.3em'
         rimTop='68.4em'/>
-        {/* <img src={BasketballHoop} className='basketball-hoop' alt='hoop'/>
-        <img src={rimPart} className='basketball-rim' alt='hoop'/> */}
         <Projects/>
         <Hoop
-        hoopTop='135em'
-        rimTop='150.4em'/>
+        hoopTop='130em'
+        rimTop='149.1em'/>
         <Introduction/>
-        
-        {/* <h3 id= "footer">hi</h3> */}
       </div>
     </div>
   );

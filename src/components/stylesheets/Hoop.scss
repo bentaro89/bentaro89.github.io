@@ -7,10 +7,12 @@
   position: absolute;
   margin: auto;
   z-index: 0;
+  height: 30em;
 };
 .basketball-rim {
   position: absolute;
   margin: auto;
   z-index: 1;
-  transform: rotate(.7deg)
+  height: 10.5em;
+  transform: rotate(.7deg);
 };

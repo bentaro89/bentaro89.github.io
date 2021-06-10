@@ -21,8 +21,6 @@ const Projects = () => {
                 />
                 ))}
             </div>
-            
-            <h1>hi there nerds</h1>
         </div>
     )
 }

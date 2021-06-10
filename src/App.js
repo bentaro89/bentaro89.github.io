@@ -3,8 +3,6 @@ import React from 'react';
 import NavBar from './components/NavBar'
 import Introduction from './components/Introduction'
 import Projects from './components/Projects'
-import Hoop from './components/Hoop'
-
 
 import Basketball from './assets/basketball.svg'
 import './App.css';
@@ -23,17 +21,12 @@ function scrollRotate() {
       <div className='App-header'>
         <NavBar/>
         <div className='basketball-container'>
-          <img src={Basketball} id={'basketball-ball'} alt='basketball'/>
+          <img src={Basketball} id='basketball-ball' alt='basketball'/>
           <Introduction/>
 
         </div>
-        <Hoop
-        hoopTop='49.3em'
-        rimTop='68.4em'/>
+        
         <Projects/>
-        <Hoop
-        hoopTop='130em'
-        rimTop='149.1em'/>
         <Introduction/>
       </div>
     </div>

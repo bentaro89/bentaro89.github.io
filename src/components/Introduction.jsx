@@ -25,8 +25,8 @@ const Intro = () => {
                     img= {data.icon}
                     color={data.color}
                     info = {data.info}
-                    width = '10em'
-                    height = '10em'/>
+                    width = '11em'
+                    height = '11em'/>
                     ))}
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { propTypes } from 'react-bootstrap/esm/Image';
 import { projectCards } from '../assets/projects-data';
 import Card from './Card';
 import './stylesheets/Projects.scss';
@@ -13,10 +14,11 @@ const Projects = () => {
                 {projectCards.map((data, i) => (
                 <Card 
                     id={i}
+                    name={data.name}
                     img={data.icon}
                     color={data.color}
                     info={data.info}
-                    height= '10em'
+                    height= {data.height ? data.height : '10em' }
                     width={data.width}
                 />
                 ))}

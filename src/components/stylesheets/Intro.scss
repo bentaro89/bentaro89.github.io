@@ -23,3 +23,19 @@
     display: flex;
     justify-content: space-around;
 }
+
+.basketball-rim {
+    position: absolute;
+    transform: rotate(1.1deg);
+
+    top: 69.45em;
+    height: 10.7em;
+    z-index: 1;
+}
+
+.basketball-hoop {
+    position: absolute;
+    top: 50.5em;
+    height: 30em;
+    z-index: 0;
+}

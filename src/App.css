@@ -5,6 +5,7 @@ html {
 .App {
   text-align: center;
   height: 100%;
+  width: 100%;
 }
 
 #basketball-ball {
@@ -14,21 +15,6 @@ html {
   z-index: 1;
 }
 
-/* .basketball-rim {
-  position: absolute;
-  transform: rotate(1.1deg);
-
-  top: 67.45em;
-  height: 10.7em;
-  z-index: 1;
-}
-
-.basketball-hoop {
-  position: absolute;
-  top: 48.5em;
-  height: 30em;
-  z-index: 0;
-} */
 .basketball-container {
   display: flex;
   flex-direction: row;

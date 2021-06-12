@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BasketballHoop from '../assets/BasketballHoop.svg'
+import BasketballHoop from '../assets/basketballHoop.svg'
 import rimPart from '../assets/betterHoop.svg'
 
 import './stylesheets/Hoop.scss';
@@ -13,6 +13,4 @@ const Hoop = (props) => {
         </div>
     )
 }
-
-
 export default Hoop;

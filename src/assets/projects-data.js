@@ -2,7 +2,6 @@ import betmate from './Betmate.png';
 import RTB from './RaiseTheBarMic.svg';
 import DOC from './DOC2.png';
 import ZT from './Icon.png';
-import corgi from './corgi.png'
 import wifi from './wifi.png'
 
 
@@ -34,8 +33,8 @@ export const projectCards = [
         'icon': RTB,
         'color': 'lightpink',
         'info': 'Learn American Sign Language (ASL)  through a virtual reality program with Oculus Quest’s hand-tracking system. Includes a learning module, glossary, and various game modes to practice sign language. Developed through Unity and C#',
-        'width': '27.5em',
-        'height': '14em'
+        'width': '24.5em',
+        'height': '13em'
     },
     {
         'name': 'Dartmouth Outing Club',
@@ -44,15 +43,15 @@ export const projectCards = [
         'icon': DOC,
         'color': 'Dartmouth Outing Club',
         'info': 'Browse, create, and sign up for Dartmouth Outing Club trip. This website allows members of the Dartmouth Outing Club to more easily access and organize outdoor trips and the members who sign up. Built using React and hosted through Netlify.',
-        'width': '27.5em',
-        'height': '14em'
+        'width': '24.5em',
+        'height': '13em'
     },
     {
         'name': 'Zodiac Time',
         'date': 'Spring 2020',
         'company': 'Independent',
         'icon': ZT,
-        'color': 'lightgrey',
+        'color': 'lightblue',
         'info': 'Test your reaction time with this fast-paced IOS tapping game. From the lazy pig to the quick-witted rat, tap quickly to conquer all the zodiacs. Built using Unity, C# and swift.',
         'width': '15em',
         'height': '15em'
@@ -64,7 +63,7 @@ export const projectCards = [
         'icon': wifi,
         'color': 'lightgrey',
         'info': 'Report your wifi issues around the Dartmouth campus to improve the multi-million campus-wide upgrade. This allows Dartmouth ITC to view overloaded access points and focus on areas that needs the most upgrading. Built with React.',
-        'width': '40em',
+        'width': '34em',
         'height': '15em'
     }
 ]

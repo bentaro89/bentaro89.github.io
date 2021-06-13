@@ -1,22 +1,32 @@
 .master-container {
     display: flex;
     flex-direction: column;
-    
+    width: 100%;
 }
-
-
-.main-container {
+.intro-container {
     margin-top: 35em;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #eeeeee;
     color: black;
-    padding-bottom: 5em;
+    z-index: 2;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-text {
+    width: 80%;
 }
 
 .facts {
     display: flex;
     // flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-evenly;
+}
+
+.fact {
+    width: 12em;
 }
 
 .intro-cards {
@@ -28,14 +38,14 @@
     position: absolute;
     transform: rotate(1.1deg);
 
-    top: 69.45em;
+    top: 68em;
     height: 10.7em;
     z-index: 1;
 }
 
 .basketball-hoop {
     position: absolute;
-    top: 50.5em;
+    top: 49em;
     height: 30em;
     z-index: 0;
 }

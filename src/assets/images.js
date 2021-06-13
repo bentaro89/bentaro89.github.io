@@ -7,7 +7,7 @@ export const introCards = [
     {
         'icon': cube,
         'color': 'lightgreen',
-        'info': 'I like to cube. I even entereed a couple of tournaments.'
+        'info': 'I like to cube. I even entered a couple of tournaments.'
     },
     {
         'icon': curry,

@@ -1,44 +1,60 @@
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 10px;
-    margin-top: 1em;
-    cursor: pointer;
-    overflow: hidden;
-  }
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  margin-top: 1em;
+  cursor: pointer;
+  overflow: hidden;
+  margin-bottom: 2em;
+}
   
 img {
   border-radius: 10px;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 black;
-  }
-  
-  .container {
-    padding: 2px 16px;
-  }
+  box-shadow: 0 8px 16px 0 black;
+}
 
-  .card-content {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-  }
+.container {
+  padding: 2px 16px;
+}
+
+.card-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.card-info {
+  text-align: none;
+  width: 100%;
+  display: block;
+  padding: 30px 30px 30px 30px;
+  box-sizing: border-box;
+  height: auto;
+  font-weight: 500;
+  font-family: 'system-ui', sans-serif;
+  font-size: .8em;
+  color: black;
+}
 
 .img-overlay {
-  background-color: rgba(200,100,0,.5); /* Tint color */
-  background-blend-mode: multiply;
+  // background-color: rgba(0,0,0,.5);
+  width: 100%;
+  height: 100%;
 }
+
 .card-title {
   position: absolute;
   width: 100%;
+  height: auto;
   display: block;
   text-align: left;
-  padding: 160px 60px 60px 60px;
+  padding: 150px 40px 40px 40px;
   box-sizing: border-box;
-  height: auto;
   bottom: 0;
   left: 0;
   font-weight: 600;
@@ -46,4 +62,5 @@ img {
   font-size: 3em;
   padding-bottom: .15em;
   color: white;
+  text-shadow: 5px 5px 5px black;
 }

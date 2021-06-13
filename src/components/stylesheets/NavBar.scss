@@ -13,21 +13,27 @@
     align-items: center;
 }
 
-    .nav-item {
-    text-decoration: none;
-    color: grey;
-    font-size: 15pt;
-    padding-left: 1em;
-
-    &.selected {
-        text-decoration: underline;
-    }
-}
-
 .nav-name{
+    text-decoration: none;
+    color: white;
     font-family: "Gill Sans", sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 1.5em;
     letter-spacing: 0.2em;
 }
+
+.nav-items {
+    display: flex;
+}
+.nav-item {
+    text-decoration: none;
+    flex-direction: row;
+    font-family: "Gill Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    margin-right: 1em;
+    color: white;
+}
+

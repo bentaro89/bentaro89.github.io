@@ -1,13 +1,16 @@
 import React from 'react';
+import Resume from '../assets/cube.svg'; //CHANGE TO RESUME
+
 import './stylesheets/NavBar.scss';
 
 const NavBar = () => {
     return(
         <div className='nav'>
-            <h2 className='nav-name'>Benedict <br></br>Tedjokusumo</h2>
-            <div>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
+            <a className='nav-name' href="#about">Benedict <br></br>Tedjokusumo</a>
+            <div className='nav-items'>
+            <a className='nav-item' href="#about">About</a>
+            <a className='nav-item' href="#projects">Projects</a>
+            <a className='nav-item' target='blank' href={Resume} download={Resume}>Download Resume</a>
             </div>
             
         </div>

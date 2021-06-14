@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c9e887c.chunk.css",
-    "main.js": "/static/js/main.ec626e91.chunk.js",
-    "main.js.map": "/static/js/main.ec626e91.chunk.js.map",
+    "main.css": "/static/css/main.d1bc4e37.chunk.css",
+    "main.js": "/static/js/main.93bc81fd.chunk.js",
+    "main.js.map": "/static/js/main.93bc81fd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67eba82c.js",
     "runtime-main.js.map": "/static/js/runtime-main.67eba82c.js.map",
     "static/js/2.a9c0185d.chunk.js": "/static/js/2.a9c0185d.chunk.js",
@@ -10,25 +10,26 @@
     "static/js/3.2c8461d1.chunk.js": "/static/js/3.2c8461d1.chunk.js",
     "static/js/3.2c8461d1.chunk.js.map": "/static/js/3.2c8461d1.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6c9e887c.chunk.css.map": "/static/css/main.6c9e887c.chunk.css.map",
+    "static/css/main.d1bc4e37.chunk.css.map": "/static/css/main.d1bc4e37.chunk.css.map",
     "static/js/2.a9c0185d.chunk.js.LICENSE.txt": "/static/js/2.a9c0185d.chunk.js.LICENSE.txt",
     "static/media/Betmate.77e8679b.png": "/static/media/Betmate.77e8679b.png",
     "static/media/DOC2.e74650dc.png": "/static/media/DOC2.e74650dc.png",
     "static/media/Icon.052c7aff.png": "/static/media/Icon.052c7aff.png",
-    "static/media/RaiseTheBarMic.632aa6ff.svg": "/static/media/RaiseTheBarMic.632aa6ff.svg",
-    "static/media/basketball.a78304aa.svg": "/static/media/basketball.a78304aa.svg",
-    "static/media/basketballHoop.f77ffaf7.svg": "/static/media/basketballHoop.f77ffaf7.svg",
-    "static/media/betterHoop.caaae6a5.svg": "/static/media/betterHoop.caaae6a5.svg",
+    "static/media/RaiseTheBarMic.4a7b83d5.svg": "/static/media/RaiseTheBarMic.4a7b83d5.svg",
+    "static/media/basketball.7c012168.svg": "/static/media/basketball.7c012168.svg",
+    "static/media/basketballHoop.ca6b6388.svg": "/static/media/basketballHoop.ca6b6388.svg",
+    "static/media/betterHoop.47100105.svg": "/static/media/betterHoop.47100105.svg",
     "static/media/chef.c3a6c56b.png": "/static/media/chef.c3a6c56b.png",
     "static/media/corgi.db4704f2.png": "/static/media/corgi.db4704f2.png",
-    "static/media/cube.92cb9bd2.svg": "/static/media/cube.92cb9bd2.svg",
-    "static/media/steph.9c8bd4f9.svg": "/static/media/steph.9c8bd4f9.svg",
+    "static/media/cube.0051db62.png": "/static/media/cube.0051db62.png",
+    "static/media/cube.063ff911.svg": "/static/media/cube.063ff911.svg",
+    "static/media/steph.8da86c5c.svg": "/static/media/steph.8da86c5c.svg",
     "static/media/wifi.b4ec0c4a.png": "/static/media/wifi.b4ec0c4a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.67eba82c.js",
     "static/js/2.a9c0185d.chunk.js",
-    "static/css/main.6c9e887c.chunk.css",
-    "static/js/main.ec626e91.chunk.js"
+    "static/css/main.d1bc4e37.chunk.css",
+    "static/js/main.93bc81fd.chunk.js"
   ]
 }

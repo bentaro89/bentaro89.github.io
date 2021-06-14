@@ -20,14 +20,17 @@ const Intro = () => {
                     <p><b>Click</b> the cards to learn more about me</p>
                     <div className='intro-cards'>
                         {introCards.map((data, i) => (
-                        <Card 
-                        id = {i}
-                        img= {data.icon}
-                        color={data.color}
-                        info = {data.info}
-                        width = '9em'
-                        height = '9em'/>
-                        ))}
+                        <div key = {i}>
+                            <Card
+                            id = {i}
+                            img= {data.icon}
+                            color={data.color}
+                            info = {data.info}
+                            width = '9em'
+                            height = '9em'/>
+                            </div>
+                            ))}
+                        
                     </div>
                 </div>
                 

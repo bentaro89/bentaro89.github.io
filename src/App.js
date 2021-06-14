@@ -20,14 +20,15 @@ function scrollRotate() {
     <div className='App'>
       <div className='App-header'>
         <NavBar/>
+        {/* <p>scroll to start</p> */}
+
         <div className='basketball-container'>
           <img src={Basketball} id='basketball-ball' alt='basketball'/>
-          <Introduction/>
+          
 
         </div>
-        
-        <Projects/>
         <Introduction/>
+        <Projects/>
       </div>
     </div>
   );

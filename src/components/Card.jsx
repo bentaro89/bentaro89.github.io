@@ -9,14 +9,17 @@ const IntroCard = (props) => {
                 <div className='card-info' style={{textAlign: props.name ? 'left' : 'none', color: props.color === 'black' ? 'white' : 'black'}}>{props.info}</div>
             :
                 props.name ?
-                <div className='card-content'>
-                    <img
-                    style={{backgroundColor: props.color, width: props.width}}
-                    src={props.img} 
-                    alt='cubee'/>
-                    
-                    <div className='card-title'>{props.name}</div>
-                </div>
+                    <div className='card-content'>
+                        {console.log(props.overlay)}
+                        <div className={props.overlay ? 'img-overlay': ''}></div>
+
+                        <img
+                        style={{backgroundColor: props.color, width: props.width}}
+                        src={props.img} 
+                        alt={props.name}/>
+                        <div className='card-title'>{props.name}</div>
+                    </div>
+                
                 :
                 <img
                 style={{backgroundColor: props.color, width: props.width, height: props.height}}

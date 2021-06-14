@@ -1,6 +1,6 @@
 import cube from './cube.png';
 import curry from './steph.svg';
-import chef from './chef.png';
+import chef from './chess.png';
 import corgi from './corgi.png'
 
 export const introCards = [

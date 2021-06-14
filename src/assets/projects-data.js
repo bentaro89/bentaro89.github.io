@@ -2,6 +2,7 @@ import betmate from './Betmate.png';
 import RTB from './RaiseTheBarMic.svg';
 import DOC from './DOC2.png';
 import ZT from './Icon.png';
+import SLAR from './SLAR.png'
 import wifi from './wifi.png'
 
 
@@ -14,7 +15,8 @@ export const projectCards = [
         'color': 'lightgreen',
         'info': 'Place wagers on chess matches! Spectate and bet on individual moves or match outcomes within a chess match. Games include active games in tournaments for betting against grandmasters to archived chess games for ongoing betting fun! Developed with React and hosted through Netlify and AWS Lambda.',
         'width': '34em',
-        'height': '15em'
+        'height': '15em',
+        'overlay': true
     },
     {
         'name': 'Raise The Bar',
@@ -30,11 +32,12 @@ export const projectCards = [
         'name': 'SLAR',
         'date': 'Summer 2020',
         'company': 'DALI Lab',
-        'icon': RTB,
+        'icon': SLAR,
         'color': 'lightpink',
         'info': 'Learn American Sign Language (ASL)  through a virtual reality program with Oculus Quest’s hand-tracking system. Includes a learning module, glossary, and various game modes to practice sign language. Developed through Unity and C#',
         'width': '24.5em',
-        'height': '13em'
+        'height': '13em',
+        'overlay': true
     },
     {
         'name': 'Dartmouth Outing Club',
@@ -44,7 +47,8 @@ export const projectCards = [
         'color': 'Dartmouth Outing Club',
         'info': 'Browse, create, and sign up for Dartmouth Outing Club trip. This website allows members of the Dartmouth Outing Club to more easily access and organize outdoor trips and the members who sign up. Built using React and hosted through Netlify.',
         'width': '24.5em',
-        'height': '13em'
+        'height': '13em',
+        'overlay': true
     },
     {
         'name': 'Zodiac Time',
@@ -64,6 +68,7 @@ export const projectCards = [
         'color': 'lightgrey',
         'info': 'Report your wifi issues around the Dartmouth campus to improve the multi-million campus-wide upgrade. This allows Dartmouth ITC to view overloaded access points and focus on areas that needs the most upgrading. Built with React.',
         'width': '34em',
-        'height': '15em'
+        'height': '15em',
+        'overlay': true
     }
 ]

@@ -20,6 +20,7 @@ const Projects = () => {
                     info={data.info}
                     height= {data.height ? data.height : '10em' }
                     width={data.width}
+                    overlay={data.overlay}
                 />
                 ))}
             </div>

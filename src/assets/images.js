@@ -1,4 +1,4 @@
-import cube from './cube.svg';
+import cube from './cube.png';
 import curry from './steph.svg';
 import chef from './chef.png';
 import corgi from './corgi.png'
@@ -6,7 +6,7 @@ import corgi from './corgi.png'
 export const introCards = [
     {
         'icon': cube,
-        'color': 'lightgreen',
+        'color': 'lightgrey',
         'info': 'I like to cube. I even entered a couple of tournaments.'
     },
     {
@@ -21,7 +21,7 @@ export const introCards = [
     },
     {
         'icon': corgi,
-        'color': 'lightgrey',
+        'color': 'lightgreen',
         'info': 'I love dogs. Look at my puppy corgi.'
     }
 ]

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import NavBar from './components/NavBar'
 import Introduction from './components/Introduction'
@@ -8,8 +8,10 @@ import Basketball from './assets/basketball.svg'
 import './App.css';
 
 function App() {
+  const [scrolled, setScroll] = useState(false);
   window.onscroll = function () {
     scrollRotate();
+    setScroll(true);
   };
 
 function scrollRotate() {
@@ -20,13 +22,12 @@ function scrollRotate() {
     <div className='App'>
       <div className='App-header'>
         <NavBar/>
-        <div className='scroll-down'></div>
-
+        <div className={scrolled ? '' : 'scroll-down'}/>
         <div className='basketball-container'>
           <img src={Basketball} id='basketball-ball' alt='basketball'/>
-          
-
+          {console.log(window.pageYOffset)}
         </div>
+        
         <Introduction/>
         <Projects/>
       </div>

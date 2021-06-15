@@ -10,7 +10,6 @@ const IntroCard = (props) => {
             :
                 props.name ?
                     <div className='card-content'>
-                        {console.log(props.overlay)}
                         <div className={props.overlay ? 'img-overlay': ''}></div>
 
                         <img

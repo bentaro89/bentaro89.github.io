@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../assets/cube.svg'; //CHANGE TO RESUME
+import Resume from '../assets/resume.pdf'; //CHANGE TO RESUME
 
 import './stylesheets/NavBar.scss';
 

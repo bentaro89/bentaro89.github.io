@@ -30,10 +30,8 @@ const Intro = () => {
                             height = '9em'/>
                             </div>
                             ))}
-                        
                     </div>
                 </div>
-                
             </div>
             <Hoop/>
         </div>

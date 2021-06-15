@@ -19,12 +19,13 @@ img {
 .container {
   padding: 2px 16px;
 }
-
+.card-border {
+  padding: 30px 30px 30px 30px;
+}
 .card-content-info {
   display: flex;
   flex-direction: column;
 
-  padding: 30px 30px 30px 30px;
   box-sizing: border-box;
   height: auto;
   font-weight: 600;
@@ -43,8 +44,8 @@ img {
   justify-content: space-between;
   font-size: .9em;
   font-weight: 600;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: .8em;
+  margin-bottom: .8em;
 }
 .card-info-title {
   text-align: center;
@@ -56,6 +57,7 @@ img {
   text-align: none;
   font-weight: 500;
   font-size: 1em;
+  margin-bottom: 1em;
 }
 
 .img-overlay {

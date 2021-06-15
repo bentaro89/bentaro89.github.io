@@ -8,7 +8,12 @@ const IntroCard = (props) => {
             {clicked ?  
                 props.name ?
                 
-                <div className='card-content-info' style={{textAlign: 'left', color: props.color === 'black' ? 'white' : 'black', fontSize: props.color === 'black' ? '.75em' : '.9em'}}>
+                <div className='card-border' style={{}}>
+                    <div className='card-content-info' style={{textAlign: 'left', 
+                    color: props.color === 'black' ? 'white' : 'black', 
+                    fontSize: props.color === 'black' ? '.75em' : '.9em',
+                    border: props.color === 'black' ? '2px solid white' : '2px solid black',
+                    padding: props.color === 'black' ? '0 10px 0 10px' : '0 20px 0 20px'}}>
                     <div className='card-info-title'>{props.realName ? props.realName: props.name}</div>
                     <div className='card-content-data'>
                         <div>{props.date}</div>
@@ -16,7 +21,9 @@ const IntroCard = (props) => {
                         </div>
                     <div className='card-info'>{props.info}</div>
 
+                    </div>
                 </div>
+                
                 :
                 <div className='card-content-info' style={{fontSize: '.7em', padding: '30px 30px 30px 30px', textAlign:'none'}}>{props.info}</div>
                 

@@ -14,7 +14,7 @@ export const projectCards = [
         'icon': betmate,
         'color': 'lightgreen',
         'info': 'Place wagers on chess matches! Spectate and bet on individual moves or match outcomes within a chess match. Games include active games in tournaments for betting against grandmasters to archived chess games for ongoing betting fun! Developed with React and hosted through Netlify and AWS Lambda.',
-        'width': '34em',
+        'width': '33em',
         'height': '15em',
         'overlay': true
     },
@@ -24,8 +24,8 @@ export const projectCards = [
         'company': 'Hack Dartmouth 2021',
         'icon': RTB,
         'color': 'black',
-        'info': 'Measure your proficiency at rapping. Given a beat and lyrics, rap as clearly and quickly as you can to receive a score derived from our proficiency algorithm. Compete with your friends by using the built in leaderboard! The platform is built on React, voice input is done using Google’s speech-to-text API and the leaderboard is managed using Firebase.',
-        'width': '15em',
+        'info': 'Measure your proficiency at rapping. Given a beat and lyrics, rap as clearly as you can to receive a score derived from our proficiency algorithm. Compete with your friends by using the built in leaderboard! The platform is built on React, voice input is done using Google’s speech-to-text API and the leaderboard is managed using Firebase.',
+        'width': '16em',
         'height': '15em'
     },
     {

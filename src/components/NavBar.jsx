@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../assets/resume.pdf';
+import Resume from '../assets/Benedict_Tedjokusumo_Resume.pdf';
 import './stylesheets/NavBar.scss';
 
 const NavBar = () => {

@@ -33,19 +33,3 @@
     display: flex;
     justify-content: space-around;
 }
-
-.basketball-rim {
-    position: absolute;
-    transform: rotate(1.1deg);
-
-    top: 68em;
-    height: 10.7em;
-    z-index: 1;
-}
-
-.basketball-hoop {
-    position: absolute;
-    top: 49em;
-    height: 30em;
-    z-index: 0;
-}

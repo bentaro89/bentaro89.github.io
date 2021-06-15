@@ -19,20 +19,21 @@ const Intro = () => {
                     <p><b>Click</b> the cards to learn more about me</p>
                     <div className='intro-cards'>
                         {introCards.map((data, i) => (
-                        <div key = {i}>
                             <Card
+                            key = {i}
                             id = {i}
                             img= {data.icon}
                             color={data.color}
                             info = {data.info}
                             width = '9em'
                             height = '9em'/>
-                            </div>
                             ))}
                     </div>
                 </div>
             </div>
-            <Hoop/>
+            <Hoop
+            hoopTop='49em'
+            rimTop='68.2em'/>
         </div>
     )
 }

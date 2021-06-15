@@ -29,7 +29,8 @@ export const projectCards = [
         'height': '15em'
     },
     {
-        'name': 'SLAR',
+        'name': 'SLSA',
+        'real-name': 'Sign Language Space Adventure',
         'date': 'Summer 2020',
         'company': 'DALI Lab',
         'icon': SLAR,

@@ -6,7 +6,20 @@ const IntroCard = (props) => {
     return(
         <div className='card' style={{backgroundColor: props.color, width: props.width, height: props.height}} onClick={() =>setClick(!clicked)}>
             {clicked ?  
-                <div className='card-info' style={{textAlign: props.name ? 'left' : 'none', color: props.color === 'black' ? 'white' : 'black'}}>{props.info}</div>
+                props.name ?
+                
+                <div className='card-content-info' style={{textAlign: 'left', color: props.color === 'black' ? 'white' : 'black', fontSize: props.color === 'black' ? '.75em' : '.9em'}}>
+                    <div className='card-info-title'>{props.realName ? props.realName: props.name}</div>
+                    <div className='card-content-data'>
+                        <div>{props.date}</div>
+                        <div>{props.company}</div>
+                        </div>
+                    <div className='card-info'>{props.info}</div>
+
+                </div>
+                :
+                <div className='card-content-info' style={{fontSize: '.7em', padding: '30px 30px 30px 30px', textAlign:'none'}}>{props.info}</div>
+                
             :
                 props.name ?
                     <div className='card-content'>

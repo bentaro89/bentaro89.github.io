@@ -15,12 +15,15 @@ const Projects = () => {
                 <Card 
                     id={i}
                     name={data.name}
+                    date={data.date}
+                    company={data.company}
                     img={data.icon}
                     color={data.color}
                     info={data.info}
                     height= {data.height ? data.height : '10em' }
                     width={data.width}
                     overlay={data.overlay}
+                    realName={data?.['real-name']}
                 />
                 ))}
             </div>

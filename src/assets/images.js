@@ -12,7 +12,7 @@ export const introCards = [
     {
         'icon': curry,
         'color': 'lightblue',
-        'info': "Living in the bay, I love basketball and especially the Warriors. Steph Curry is my favorite player (I teared when they lost the 2016 finals)."
+        'info': "Living in the bay, I love basketball and especially the Warriors. Steph Curry is my favorite player (I teared up when they lost the 2016 finals)."
     },
     {
         'icon': chef,
@@ -22,6 +22,6 @@ export const introCards = [
     {
         'icon': corgi,
         'color': 'lightgreen',
-        'info': "I didn't realize how much I loved dogs until I got my puppy corgi. Her name is Kya and she is a good girl!"
+        'info': "I didn't realize how much I loved dogs until I got my puppy corgi. Her name is Kya and she has been a huge part of my life. She is a good girl!"
     }
 ]

@@ -53,3 +53,47 @@ html {
     transform: rotate(360deg);
   }
 }
+
+
+.scroll-down {
+  position: absolute;
+  height: 50px;
+  width: 80px;
+  border: 3px solid white;
+  bottom: 20px;
+  border-radius: 30px;
+}
+
+.scroll-down::before,
+.scroll-down::after{
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border: 3px solid white;
+  bottom: 20px;
+  transform: translate(-50%, -60%) rotate(45deg);
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+
+.scroll-down::after{
+  animation-delay: .3s;
+}
+
+@keyframes scroll-down {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 60%;
+  }
+}

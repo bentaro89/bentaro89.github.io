@@ -1,6 +1,5 @@
 import React from 'react';
-import Resume from '../assets/resume.pdf'; //CHANGE TO RESUME
-
+import Resume from '../assets/resume.pdf';
 import './stylesheets/NavBar.scss';
 
 const NavBar = () => {
@@ -12,7 +11,6 @@ const NavBar = () => {
             <a className='nav-item' href="#projects">Projects</a>
             <a className='nav-item' target='_blank' rel='noreferrer' href={Resume}>Resume</a>
             </div>
-            
         </div>
     )
 }

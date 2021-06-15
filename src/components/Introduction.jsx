@@ -5,7 +5,6 @@ import Card from './Card';
 import './stylesheets/Intro.scss';
 
 const Intro = () => {
-    
     return(
         <div className='master-container'>
             <div className='intro-container' id= "about">
@@ -14,8 +13,8 @@ const Intro = () => {
                     <h3>I'm a...</h3>
                     <div className='facts'>
                         <p className='fact'>rising Junior studying <b style={{color: 'blue'}}>computer science</b> in <b>Dartmouth College</b></p>
-                        <p className='fact'><b>software engineer</b> experienced in <b>frontend, AR/VR, and mobile app</b> development</p>
-                        <p className='fact'><b>Bay Area</b> native who was self-taught programmer</p>
+                        <p className='fact'><b>software engineer</b> experienced in <b>full stack, AR/VR, and mobile app</b> development</p>
+                        <p className='fact'><b>Bay Area</b> native who loves creating and designing programs!</p>
                     </div>
                     <p><b>Click</b> the cards to learn more about me</p>
                     <div className='intro-cards'>

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b240041.chunk.css",
-    "main.js": "/static/js/main.25b3f84f.chunk.js",
-    "main.js.map": "/static/js/main.25b3f84f.chunk.js.map",
+    "main.css": "/static/css/main.8853d672.chunk.css",
+    "main.js": "/static/js/main.9c834700.chunk.js",
+    "main.js.map": "/static/js/main.9c834700.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67eba82c.js",
     "runtime-main.js.map": "/static/js/runtime-main.67eba82c.js.map",
     "static/js/2.05a7ff94.chunk.js": "/static/js/2.05a7ff94.chunk.js",
@@ -10,8 +10,9 @@
     "static/js/3.2c8461d1.chunk.js": "/static/js/3.2c8461d1.chunk.js",
     "static/js/3.2c8461d1.chunk.js.map": "/static/js/3.2c8461d1.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5b240041.chunk.css.map": "/static/css/main.5b240041.chunk.css.map",
+    "static/css/main.8853d672.chunk.css.map": "/static/css/main.8853d672.chunk.css.map",
     "static/js/2.05a7ff94.chunk.js.LICENSE.txt": "/static/js/2.05a7ff94.chunk.js.LICENSE.txt",
+    "static/media/Benedict_Tedjokusumo_Resume.a0d6e86d.pdf": "/static/media/Benedict_Tedjokusumo_Resume.a0d6e86d.pdf",
     "static/media/Betmate.77e8679b.png": "/static/media/Betmate.77e8679b.png",
     "static/media/DOC2.e74650dc.png": "/static/media/DOC2.e74650dc.png",
     "static/media/Icon.052c7aff.png": "/static/media/Icon.052c7aff.png",
@@ -20,17 +21,20 @@
     "static/media/basketball.a78304aa.svg": "/static/media/basketball.a78304aa.svg",
     "static/media/basketballHoop.f77ffaf7.svg": "/static/media/basketballHoop.f77ffaf7.svg",
     "static/media/betterHoop.caaae6a5.svg": "/static/media/betterHoop.caaae6a5.svg",
-    "static/media/chess.ca9b971d.png": "/static/media/chess.ca9b971d.png",
+    "static/media/chess.3757adde.svg": "/static/media/chess.3757adde.svg",
     "static/media/corgi.04fd1930.png": "/static/media/corgi.04fd1930.png",
     "static/media/cube.0051db62.png": "/static/media/cube.0051db62.png",
-    "static/media/resume.84444419.pdf": "/static/media/resume.84444419.pdf",
+    "static/media/email.b5eaaaba.svg": "/static/media/email.b5eaaaba.svg",
+    "static/media/github.d3263084.png": "/static/media/github.d3263084.png",
+    "static/media/instagram.482d4132.svg": "/static/media/instagram.482d4132.svg",
+    "static/media/linkedin.bdd46eac.svg": "/static/media/linkedin.bdd46eac.svg",
     "static/media/steph.9c8bd4f9.svg": "/static/media/steph.9c8bd4f9.svg",
     "static/media/wifi.b4ec0c4a.png": "/static/media/wifi.b4ec0c4a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.67eba82c.js",
     "static/js/2.05a7ff94.chunk.js",
-    "static/css/main.5b240041.chunk.css",
-    "static/js/main.25b3f84f.chunk.js"
+    "static/css/main.8853d672.chunk.css",
+    "static/js/main.9c834700.chunk.js"
   ]
 }

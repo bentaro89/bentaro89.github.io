@@ -5,7 +5,6 @@ import Hoop from './Hoop';
 import './stylesheets/Projects.scss';
 
 const Projects = () => {
-    
     return(
         <div className='master-container'>
         <div className='main-container' id= "projects">
@@ -18,6 +17,7 @@ const Projects = () => {
                     id={i}
                     name={data.name}
                     date={data.date}
+                    tools={data.tools}
                     company={data.company}
                     img={data.icon}
                     color={data.color}
@@ -31,8 +31,8 @@ const Projects = () => {
             </div>
         </div>
         <Hoop
-        hoopTop='145em'
-        rimTop='164.1em'/>
+        hoopTop='128em'
+        rimTop='147.1em'/>
         </div>
     )
 }

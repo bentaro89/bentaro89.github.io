@@ -1,6 +1,6 @@
 import cube from './cube.png';
 import curry from './steph.svg';
-import chef from './chess.png';
+import chess from './chess.svg';
 import corgi from './corgi.png'
 
 export const introCards = [
@@ -15,8 +15,8 @@ export const introCards = [
         'info': "Living in the bay, I love basketball and especially the Warriors. Steph Curry is my favorite player (I teared up when they lost the 2016 finals)."
     },
     {
-        'icon': chef,
-        'color': 'lightpink',
+        'icon': chess,
+        'color':'lightpink',
         'info': "I've been playing chess since I was little and continue to play online everyday. Viswanathan Anand is my favorite chess player!"
     },
     {

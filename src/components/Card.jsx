@@ -3,6 +3,7 @@ import './stylesheets/Card.scss';
 
 const IntroCard = (props) => {
     const [clicked, setClick] = useState(false);
+    const colors =['lightblue', 'lightpink']
     return(
         <div className='card' style={{backgroundColor: props.color, width: props.width, height: props.height}} onClick={() =>setClick(!clicked)}>
             {clicked ?  
@@ -25,7 +26,7 @@ const IntroCard = (props) => {
                 </div>
                 
                 :
-                <div className='card-content-info' style={{fontSize: '.7em', padding: '30px 30px 30px 30px', textAlign:'none'}}>{props.info}</div>
+                <div className='card-content-info' style={{fontSize: '.75em', padding: '25px 25px 20px 30px', textAlign:'none'}}>{props.info}</div>
                 
             :
                 props.name ?
@@ -36,12 +37,19 @@ const IntroCard = (props) => {
                         style={{backgroundColor: props.color, width: props.width}}
                         src={props.img} 
                         alt={props.name}/>
-                        <div className='card-title'>{props.name}</div>
+                        <div className='card-titles card-title'>{props.name}</div>
+                        <div className='card-titles card-tools'>{props.tools}</div>
                     </div>
                 
                 :
+                
                 <img
-                style={{backgroundColor: props.color, width: props.width, height: props.height}}
+                style={{
+                    backgroundColor: props.color, 
+                    width: !colors.includes(props.color) ? props.width : '7em', 
+                    height: !colors.includes(props.color) ? props.height : '7em',
+                    paddingTop: !colors.includes(props.color) ? '' : '1em'
+                }}
                 src={props.img} 
                 alt='cube'/>
 

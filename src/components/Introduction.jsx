@@ -10,7 +10,7 @@ const Intro = () => {
             <div className='intro-container' id= "about">
                 <div className='intro-text'>
                     <h1>My name is Ben</h1>
-                    <h3>I'm a...</h3>
+                    <h3 style={{paddingInlineStart: '2em', textAlign:'left'}}>I'm a...</h3>
                     <div className='facts'>
                         <p className='fact'>rising junior studying <b>computer science</b> in <b>Dartmouth College</b></p>
                         <p className='fact'><b>software engineer</b> experienced in <b>full stack, AR/VR, and mobile app</b> development</p>
@@ -32,8 +32,8 @@ const Intro = () => {
                 </div>
             </div>
             <Hoop
-            hoopTop='49em'
-            rimTop='68.2em'/>
+            hoopTop='47.8em'
+            rimTop='66.9em'/>
         </div>
     )
 }

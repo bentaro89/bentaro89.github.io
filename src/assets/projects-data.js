@@ -5,7 +5,6 @@ import ZT from './Icon.png';
 import SLAR from './SLAR.png'
 import wifi from './wifi.png'
 
-
 export const projectCards = [
     {
         'name': 'BetMate',

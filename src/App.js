@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import NavBar from './components/NavBar'
 import Introduction from './components/Introduction'
 import Projects from './components/Projects'
+import Footer from './components/Footer'
 import Hoop from './components/Hoop'
 
 import Basketball from './assets/basketball.svg'
@@ -33,6 +34,7 @@ function scrollRotate() {
         <Hoop
           hoopTop='183em'
           rimTop='202.1em'/>
+        <Footer/>
       </div>
     </div>
   );

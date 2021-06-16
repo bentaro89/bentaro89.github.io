@@ -12,7 +12,7 @@ const Intro = () => {
                     <h1>My name is Ben</h1>
                     <h3>I'm a...</h3>
                     <div className='facts'>
-                        <p className='fact'>rising Junior studying <b style={{color: 'blue'}}>computer science</b> in <b>Dartmouth College</b></p>
+                        <p className='fact'>rising junior studying <b>computer science</b> in <b>Dartmouth College</b></p>
                         <p className='fact'><b>software engineer</b> experienced in <b>full stack, AR/VR, and mobile app</b> development</p>
                         <p className='fact'><b>Bay Area</b> native who loves creating and designing programs!</p>
                     </div>

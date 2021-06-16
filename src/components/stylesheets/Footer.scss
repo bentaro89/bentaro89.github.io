@@ -1,8 +1,8 @@
-.nav{
+.footer{
     background-color: black;
-    position: fixed;
+    position: relative;
     width: calc(100% - 3rem);
-    top: 0;
+    bottom: 0;
     overflow: hidden;
     z-index: 2;
     padding: 0 1em 0 1em;
@@ -13,27 +13,25 @@
     align-items: center;
 }
 
-.nav-name{
+.footer-name{
     text-decoration: none;
     color: white;
     font-family: "Gill Sans", sans-serif;
     font-style: normal;
-    font-weight: 350;
-    font-size: 1.4em;
-    letter-spacing: 0.1em;
+    font-weight: 200;
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
 }
 
-.nav-items {
+.footer-items {
     display: flex;
 }
-.nav-item {
+.footer-item {
     text-decoration: none;
     flex-direction: row;
     font-family: "Gill Sans", sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 1em;
-    margin-right: 1em;
     color: white;
 }
-

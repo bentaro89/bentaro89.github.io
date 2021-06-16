@@ -39,7 +39,7 @@ export const projectCards = [
         'color': 'lightpink',
         'tools': 'C# - Unity - Maya',
         'info': 'Learn American Sign Language (ASL)  through a virtual reality program with Oculus Quest’s hand-tracking system. Includes a learning module, glossary, and various game modes to practice sign language.',
-        'width': '24.5em',
+        'width': '25em',
         'height': '13em',
         'overlay': true
     },
@@ -52,7 +52,7 @@ export const projectCards = [
         'color': 'Dartmouth Outing Club',
         'tools': 'React - MongoDB - Netlify',
         'info': 'Browse, create, and sign up for Dartmouth Outing Club trip. This website allows members of the Dartmouth Outing Club to more easily access and organize outdoor trips and the members who sign up.',
-        'width': '24.5em',
+        'width': '25em',
         'height': '13em',
         'overlay': true
     },

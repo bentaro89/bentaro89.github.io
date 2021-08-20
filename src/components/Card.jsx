@@ -14,14 +14,30 @@ const IntroCard = (props) => {
                     color: props.color === 'black' ? 'white' : 'black', 
                     fontSize: props.color === 'black' ? '.75em' : '.9em',
                     border: props.color === 'black' ? '2px solid white' : '2px solid black',
-                    padding: props.color === 'black' ? '0 10px 0 10px' : '0 20px 0 20px'}}>
-                    <div className='card-info-title'>{props.realName ? props.realName: props.name}</div>
-                    <div className='card-content-data'>
-                        <div>{props.date}</div>
-                        <div>{props.company}</div>
-                        </div>
+                    padding: props.color === 'black' ? '0 10px 0 10px' : '0 20px 0 20px',
+                    borderRadius: '10px'}}>
+                        <div className='card-info-title'>{props.realName ? props.realName: props.name}</div>
+                        <div className='card-content-data'>
+                            <div>{props.date}</div>
+                            <div>{props.company}</div>
+                    </div>
                     <div className='card-info'>{props.info}</div>
-
+                    <div className='card-link'>
+                        {props.link !== undefined ?
+                        <a href={props.link} target="blank" style={{
+                        textAlign: 'right', 
+                        color: props.color === 'black' ? 'white' : 'black', 
+                        left: '10em',
+                        width: '10em',
+                        textDecoration: 'none',
+                        backgroundColor: props.color === 'black' ? 'grey': 'lightgrey',
+                        borderRadius: '10px',
+                        border: props.color === 'black' ? '2px solid white' : '2px solid black'
+                        }}>Check it out</a>
+                            :
+                        <a>Not currently hosted</a>
+                        }
+                    </div>
                     </div>
                 </div>
                 

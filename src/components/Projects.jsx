@@ -25,6 +25,7 @@ const Projects = () => {
                     height= {data.height ? data.height : '10em' }
                     width={data.width}
                     overlay={data.overlay}
+                    link={data.link}
                     realName={data?.['real-name']}
                 />
                 ))}

@@ -16,7 +16,8 @@ export const projectCards = [
         'info': 'Place wagers on chess matches! Spectate and bet on individual moves or match outcomes within a chess match. Games include active games in tournaments for betting against grandmasters to archived chess games for ongoing betting fun!',
         'width': '33em',
         'height': '15em',
-        'overlay': true
+        'overlay': true,
+        'link': 'https://betmate-dev.netlify.app/'
     },
     {
         'name': 'RTB',
@@ -28,7 +29,8 @@ export const projectCards = [
         'tools': 'React - Firebase',
         'info': 'Measure your proficiency at rapping using Google’s speech-to-text API. Given a beat and lyrics, rap as clearly as you can to receive a score derived from our proficiency algorithm. Compete with your friends by using the built in leaderboard!',
         'width': '16em',
-        'height': '15em'
+        'height': '15em',
+        'link': 'https://github.com/bentaro89/RaiseTheBar'
     },
     {
         'name': 'SLSA',
@@ -41,7 +43,8 @@ export const projectCards = [
         'info': 'Learn American Sign Language (ASL)  through a virtual reality program with Oculus Quest’s hand-tracking system. Includes a learning module, glossary, and various game modes to practice sign language.',
         'width': '25em',
         'height': '13em',
-        'overlay': true
+        'overlay': true,
+        'link': 'https://www.notion.so/CASE-STUDY-SIGN-LANGUAGE-SPACE-ADVENTURE-f6d329c3ea83423299dadc8193c9ea9d'
     },
     {
         'name': 'DOC',
@@ -54,7 +57,8 @@ export const projectCards = [
         'info': 'Browse, create, and sign up for Dartmouth Outing Club trip. This website allows members of the Dartmouth Outing Club to more easily access and organize outdoor trips and the members who sign up.',
         'width': '25em',
         'height': '13em',
-        'overlay': true
+        'overlay': true,
+        'link': 'https://doc.dartmouth.edu/'
     },
     {
         'name': 'Zodiac Time',

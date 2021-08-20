@@ -31,7 +31,7 @@ const IntroCard = (props) => {
                         width: '10em',
                         textDecoration: 'none',
                         backgroundColor: props.color === 'black' ? 'grey': 'lightgrey',
-                        borderRadius: '10px',
+                        borderRadius: '5px',
                         border: props.color === 'black' ? '2px solid white' : '2px solid black'
                         }}>Check it out</a>
                             :

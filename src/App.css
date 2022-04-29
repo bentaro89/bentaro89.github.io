@@ -30,7 +30,7 @@ html {
 }
 
 .App-header {
-  background-color: #26272E;
+  background-color: #25262b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -96,4 +96,24 @@ html {
     opacity: 0;
     top: 60%;
   }
+}
+
+.name-container {
+  margin-top: 22em;
+
+}
+
+.Typewriter__wrapper {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+}
+
+.Typewriter__cursor {
+  text-decoration: none;
+  animation: Typewriter-cursor 1s infinite;
+  margin-left: 1px;
+  font-size: 1.5em;
 }

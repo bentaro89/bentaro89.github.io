@@ -5,15 +5,25 @@ import Introduction from './components/Introduction'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Hoop from './components/Hoop'
+import Typewriter from 'typewriter-effect';
 
 import Basketball from './assets/basketball.svg'
 import './App.css';
 
 function App() {
   const [scrolled, setScroll] = useState(false);
+
   window.onscroll = function () {
     scrollRotate();
-    setScroll(true);
+
+    // If user scrolls a bit down
+    if (window.scrollY >= window.innerHeight/15) {
+      setScroll(true);
+    }
+
+    if ((window.innerHeight + window.scrollY+2) >= document.body.offsetHeight) {
+      console.log("bottom");
+  }
   };
 
 function scrollRotate() {
@@ -28,6 +38,23 @@ function scrollRotate() {
         <div className='basketball-container'>
           <img src={Basketball} id='basketball-ball' alt='basketball'/>
         </div>
+        <div className='name-container'>
+          {scrolled ?
+            null
+            :
+            <Typewriter
+              // style={{'marginTop': '10em'}}
+              onInit={(typewriter) => {
+                typewriter.typeString('Hi! My name is Ben')
+                .callFunction(() => {
+                console.log('String typed out!');
+              })
+              .start();
+              }}
+            />
+          }
+        </div>
+        
         
         <Introduction/>
         <Projects/>

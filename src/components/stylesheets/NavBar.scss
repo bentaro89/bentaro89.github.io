@@ -1,5 +1,5 @@
 .nav{
-    background-color: black;
+    background-color: #25262b;
     position: fixed;
     width: calc(100% - 3rem);
     top: 0;
@@ -16,9 +16,8 @@
 .nav-name{
     text-decoration: none;
     color: white;
-    font-style: normal;
-    font-weight: 340;
-    font-size: 1.5em;
+    font-weight: 400;
+    font-size: 1.2em;
     letter-spacing: 0.1em;
 }
 
@@ -28,10 +27,10 @@
 .nav-item {
     text-decoration: none;
     flex-direction: row;
-    font-style: normal;
-    font-weight: 340;
-    font-size: 1em;
+    font-weight: 400;
+    font-size: 1.2em;
     margin-right: 1em;
     color: white;
+    letter-spacing: 0.05em;
 }
 

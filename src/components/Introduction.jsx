@@ -9,14 +9,13 @@ const Intro = () => {
         <div className='master-container'>
             <div className='intro-container' id= "about">
                 <div className='intro-text'>
-                    <h1>My name is Ben</h1>
+                    {/* <h1 className='intro-name'>Hi! My name is Ben</h1> */}
                     <h3 style={{paddingInlineStart: '2em', textAlign:'left'}}>I'm a...</h3>
                     <div className='facts'>
                         <p className='fact'>rising junior studying <b>computer science</b> in <b>Dartmouth College</b></p>
                         <p className='fact'><b>software engineer</b> experienced in <b>full stack, AR/VR, and mobile app</b> development</p>
                         <p className='fact'><b>Bay Area</b> native who loves creating and designing programs!</p>
                     </div>
-                    <p><b>Click</b> the cards to learn more about me</p>
                     <div className='intro-cards'>
                         {introCards.map((data, i) => (
                             <Card
@@ -32,8 +31,8 @@ const Intro = () => {
                 </div>
             </div>
             <Hoop
-            hoopTop='47.8em'
-            rimTop='66.9em'/>
+            hoopTop='42.9em'
+            rimTop='62em'/>
         </div>
     )
 }

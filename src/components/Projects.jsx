@@ -32,8 +32,8 @@ const Projects = () => {
             </div>
         </div>
         <Hoop
-        hoopTop='127em'
-        rimTop='146.1em'/>
+        hoopTop='123.7em'
+        rimTop='142.8em'/>
         </div>
     )
 }

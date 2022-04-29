@@ -31,8 +31,8 @@ const Intro = () => {
                 </div>
             </div>
             <Hoop
-            hoopTop='42.9em'
-            rimTop='62em'/>
+            hoopTop='42.2em'
+            rimTop='61.3em'/>
         </div>
     )
 }

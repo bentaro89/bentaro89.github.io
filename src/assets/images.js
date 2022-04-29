@@ -7,12 +7,12 @@ export const introCards = [
     {
         'icon': cube,
         'color': 'lightgrey',
-        'info': "I've been speed cubing since I was in middle school and even entered a couple of tournaments. My best time to solve a 3x3 is 8.86 seconds!"
+        'info': "I've been speed cubing since I was in middle school and even entered a couple of tournaments. My best time is 8.86 seconds!"
     },
     {
         'icon': curry,
         'color': 'lightblue',
-        'info': "Living in the bay, I love basketball and especially the Warriors. Steph Curry is my favorite player (I teared up when they lost the 2016 finals)."
+        'info': "Living in the bay, I love basketball and especially the Warriors. Steph Curry is my favorite player (obviously). Go dubs!"
     },
     {
         'icon': chess,

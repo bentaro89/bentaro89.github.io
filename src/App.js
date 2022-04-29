@@ -20,6 +20,10 @@ function App() {
     if (window.scrollY >= window.innerHeight/15) {
       setScroll(true);
     }
+    else
+    {
+      setScroll(false);
+    }
 
     if ((window.innerHeight + window.scrollY+2) >= document.body.offsetHeight) {
       console.log("bottom");
@@ -43,9 +47,8 @@ function scrollRotate() {
             null
             :
             <Typewriter
-              // style={{'marginTop': '10em'}}
               onInit={(typewriter) => {
-                typewriter.typeString('Hi! My name is Ben')
+                typewriter.typeString('Hi! My name is Ben!')
                 .callFunction(() => {
                 console.log('String typed out!');
               })

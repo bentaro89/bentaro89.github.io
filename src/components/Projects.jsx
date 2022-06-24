@@ -9,7 +9,7 @@ const Projects = () => {
         <div className='master-container'>
         <div className='main-container' id= "projects">
             <h1>Projects</h1>
-            <p><b>Click</b> the cards to learn more about my projects</p>
+            {/* <p><b>Click</b> the cards to learn more about my projects</p> */}
             <div className='intro-cards'>
                 {projectCards.map((data, i) => (
                 <Card 

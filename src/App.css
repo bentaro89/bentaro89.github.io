@@ -10,7 +10,7 @@ html {
 
 #basketball-ball {
   position: fixed;
-  top: 20%;
+  top: 25%;
   height: 14em;
   z-index: 1;
 }
@@ -104,7 +104,7 @@ html {
 }
 
 .name-container {
-  margin-top: 22em;
+  margin-top: 24em;
 
 }
 

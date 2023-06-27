@@ -1,17 +1,17 @@
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 10px;
   margin-top: 1em;
   cursor: pointer;
   overflow: hidden;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-  
+
 img {
   border-radius: 10px;
 }
@@ -23,9 +23,11 @@ img {
 .container {
   padding: 2px 16px;
 }
+
 .card-border {
   padding: 30px 30px 30px 30px;
 }
+
 .card-content-info {
   display: flex;
   flex-direction: column;
@@ -52,12 +54,14 @@ img {
   margin-top: .8em;
   margin-bottom: .8em;
 }
+
 .card-info-title {
   text-align: center;
   margin-top: .3em;
   font-size: 1.3em;
   font-weight: 700;
 }
+
 .card-info {
   text-align: none;
   font-weight: 500;
@@ -67,7 +71,7 @@ img {
 
 .img-overlay {
   position: absolute;
-  background-color: rgba(0,0,0,.4);
+  background-color: rgba(0, 0, 0, .4);
   top: 0;
   left: 0;
   width: 100%;
@@ -80,21 +84,21 @@ img {
   display: block;
   padding: 40px 40px 40px 40px;
   box-sizing: border-box;
-  
+
   padding-bottom: .15em;
   color: white;
   text-shadow: 5px 5px 5px black;
-  left: 0; 
+  left: 0;
   text-align: left;
 }
 
-.card-title { 
+.card-title {
   bottom: .4em;
   font-size: 3em;
   font-weight: 600;
 }
 
-.card-tools { 
+.card-tools {
   bottom: .5em;
   font-size: 1em;
   font-weight: 450;

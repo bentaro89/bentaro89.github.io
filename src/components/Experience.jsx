@@ -6,8 +6,8 @@ import './stylesheets/Intro.scss';
 
 export default function Experience() {
     return (
-        <div className='master-container'>
-            <div className='intro-container' id="experience">
+        <div className='master-container' id="experience">
+            <div className='experience-container'>
                 <div className='intro-text'>
                     <div style={{ width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'left' }}>
                         <h3>
@@ -22,15 +22,15 @@ export default function Experience() {
                                 img={data.icon}
                                 color={data.color}
                                 info={data.info}
-                                width='14em'
-                                height='14em' />
+                                width='12em'
+                                height='12em' />
                         ))}
                     </div>
                 </div>
             </div>
-            {/* <Hoop
-                hoopTop='42.2em'
-                rimTop='61.3em' /> */}
+            <Hoop
+                hoopTop='81.1em'
+                rimTop='100.2em' />
         </div>
     )
 }

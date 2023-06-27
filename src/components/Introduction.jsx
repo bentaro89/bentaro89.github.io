@@ -6,8 +6,8 @@ import './stylesheets/Intro.scss';
 
 const Intro = () => {
     return (
-        <div className='master-container'>
-            <div className='intro-container' id="about">
+        <div className='master-container' id="about">
+            <div className='intro-container'>
                 <div className='intro-text'>
                     <div style={{ width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'left' }}>
                         <h3>
@@ -34,8 +34,8 @@ const Intro = () => {
                 </div>
             </div>
             <Hoop
-                hoopTop='42.2em'
-                rimTop='61.3em' />
+                hoopTop='43.2em'
+                rimTop='62.2em' />
         </div>
     )
 }

@@ -25,10 +25,6 @@ function App() {
     {
       setScroll(false);
     }
-
-    if ((window.innerHeight + window.scrollY+2) >= document.body.offsetHeight) {
-      console.log("bottom");
-  }
   };
 
 function scrollRotate() {
@@ -41,7 +37,12 @@ function scrollRotate() {
         <NavBar/>
         <div className={scrolled ? '' : 'scroll-down'}/>
         <div className='basketball-container'>
-          <img src={Basketball} id='basketball-ball' alt='basketball'/>
+          <img 
+            src={Basketball} 
+            id='basketball-ball' 
+            alt='basketball'
+            // style={{}}
+          />
         </div>
         <div className='name-container'>
           {scrolled ?
@@ -63,9 +64,9 @@ function scrollRotate() {
         <Introduction/>
         <Experience/>
         <Projects/>
-        {/* <Hoop
-          hoopTop='170em'
-          rimTop='189.1em'/> */}
+        <Hoop
+          hoopTop='200em'
+          rimTop='219.05em'/>
         <Footer/>
       </div>
     </div>

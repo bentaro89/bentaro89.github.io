@@ -66,7 +66,11 @@ const IntroCard = (props) => {
                         <div className={props.overlay ? 'img-overlay' : ''}></div>
 
                         <img
-                            style={{ backgroundColor: props.color, width: props.width, height: 'auto' }}
+                            style={{
+                                backgroundColor: props.color,
+                                width: props.width,
+                                height: props.height
+                            }}
                             src={props.img}
                             alt={props.name} />
                         <div className='card-titles card-title'>{props.name}</div>

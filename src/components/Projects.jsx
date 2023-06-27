@@ -6,8 +6,8 @@ import './stylesheets/Projects.scss';
 
 const Projects = () => {
     return (
-        <div className='master-container'>
-            <div className='main-container' id="projects">
+        <div className='master-container' id="projects">
+            <div className='main-container'>
                 <div style={{ width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'left', paddingLeft: '4em' }}>
                     <h3>
                         I have worked on...
@@ -34,9 +34,9 @@ const Projects = () => {
                     ))}
                 </div>
             </div>
-            {/* <Hoop
-                hoopTop='121.4em'
-                rimTop='140.5em' /> */}
+            <Hoop
+                hoopTop='168.2em'
+                rimTop='187.3em' />
         </div>
     )
 }

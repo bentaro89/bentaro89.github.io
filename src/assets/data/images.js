@@ -1,7 +1,7 @@
-import cube from './cube.png';
-import curry from './steph.svg';
-import chess from './chess.svg';
-import corgi from './corgi.png'
+import cube from '../Intro/cube.png';
+import curry from '../Intro/steph.svg';
+import chess from '../Intro/chess.svg';
+import corgi from '../Intro/corgi.png'
 
 export const introCards = [
     {

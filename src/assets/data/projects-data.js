@@ -1,9 +1,9 @@
-import betmate from './Betmate.png';
-import RTB from './RaiseTheBarMic.svg';
-import DOC from './DOC2.png';
-import ZT from './Icon.png';
-import SLAR from './SLAR.png'
-import wifi from './wifi.png'
+import betmate from '../projects/Betmate.png';
+import RTB from '../projects/RaiseTheBarMic.svg';
+import DOC from '../projects/DOC2.png';
+import ZT from '../projects/ZodiacTime.png';
+import SLAR from '../projects/SLAR.png'
+import wifi from '../projects/wifi.png'
 
 export const projectCards = [
     {

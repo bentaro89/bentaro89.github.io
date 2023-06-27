@@ -1,7 +1,7 @@
-import email from './email.svg';
-import github from './github.png';
-import instagram from './instagram.svg'
-import link from './linkedin.svg'
+import email from '../Footer/email.svg';
+import github from '../Footer/github.png';
+import instagram from '../Footer/instagram.svg'
+import link from '../Footer/linkedin.svg'
 
 export const data = [
     {

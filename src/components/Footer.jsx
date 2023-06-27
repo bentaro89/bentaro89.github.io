@@ -1,5 +1,5 @@
 import React from 'react';
-import { data } from '../assets/links'
+import { data } from '../assets/data/links'
 import './stylesheets/Footer.scss';
 
 const Footer = () => {

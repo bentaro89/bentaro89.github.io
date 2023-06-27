@@ -9,6 +9,7 @@ import Typewriter from 'typewriter-effect';
 
 import Basketball from './assets/basketball.svg'
 import './App.css';
+import Experience from './components/Experience';
 
 function App() {
   const [scrolled, setScroll] = useState(false);
@@ -60,10 +61,11 @@ function scrollRotate() {
         
         
         <Introduction/>
+        <Experience/>
         <Projects/>
-        <Hoop
+        {/* <Hoop
           hoopTop='170em'
-          rimTop='189.1em'/>
+          rimTop='189.1em'/> */}
         <Footer/>
       </div>
     </div>

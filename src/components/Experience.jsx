@@ -1,44 +1,36 @@
 import React from 'react';
-import { introCards } from '../assets/data/images';
+import data from '../assets/data/experience';
 import Hoop from './Hoop'
 import Card from './Card';
 import './stylesheets/Intro.scss';
 
-const Intro = () => {
+export default function Experience() {
     return (
         <div className='master-container'>
-            <div className='intro-container' id="about">
+            <div className='intro-container' id="experience">
                 <div className='intro-text'>
                     <div style={{ width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'left' }}>
                         <h3>
-                            I am a...
+                            I have experience working at...
                         </h3>
                     </div>
-                    <div className='facts'>
-                        <p className='fact'>recent new grad who studied <b>computer science</b> at <b>Dartmouth College</b></p>
-                        <p className='fact'><b>software engineer</b> experienced in <b>full stack, AR/VR, and mobile app</b> development</p>
-                        <p className='fact'><b>Bay Area</b> native who loves creating and designing programs!</p>
-                    </div>
                     <div className='intro-cards'>
-                        {introCards.map((data, i) => (
+                        {data.map((data, i) => (
                             <Card
                                 key={i}
                                 id={i}
                                 img={data.icon}
                                 color={data.color}
                                 info={data.info}
-                                width='9em'
-                                height='9em' />
+                                width='14em'
+                                height='14em' />
                         ))}
                     </div>
                 </div>
             </div>
-            <Hoop
+            {/* <Hoop
                 hoopTop='42.2em'
-                rimTop='61.3em' />
+                rimTop='61.3em' /> */}
         </div>
     )
 }
-
-
-export default Intro;

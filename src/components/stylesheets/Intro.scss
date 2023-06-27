@@ -3,13 +3,11 @@
     flex-direction: column;
     width: 100%;
 }
+
 .intro-container {
     margin-top: 14em;
     width: 100%;
     background-color: #eeeeee;
-    // border-color: rgb(252, 76, 76);
-    // border-width: 8px;
-    // border-style: solid;
     color: black;
     z-index: 2;
     padding-top: 1em;
@@ -20,14 +18,20 @@
     border-radius: 15px;
 }
 
+.starting_line {
+    text-align: 'left'
+}
+
 h1 {
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
+
 h3 {
     margin-block-start: .5em;
     margin-block-end: .05em;
 }
+
 .intro-text {
     width: 80%;
 }

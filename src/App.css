@@ -30,6 +30,7 @@ html {
 }
 
 .App-header {
+  width: 100%;
   background-color: #25262b;
   min-height: 100vh;
   display: flex;
@@ -49,6 +50,7 @@ html {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -65,7 +67,7 @@ html {
 }
 
 .scroll-down::before,
-.scroll-down::after{
+.scroll-down::after {
   content: '';
   position: absolute;
   height: 15px;
@@ -78,7 +80,7 @@ html {
   animation: scroll-down 1s ease-in-out infinite;
 }
 
-.scroll-down::after{
+.scroll-down::after {
   animation-delay: .3s;
 }
 
@@ -86,12 +88,15 @@ html {
   0% {
     opacity: 0;
   }
+
   30% {
     opacity: 1;
   }
+
   60% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
     top: 60%;

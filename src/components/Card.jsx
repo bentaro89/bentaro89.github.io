@@ -8,36 +8,33 @@ const IntroCard = (props) => {
         <div className='card' style={{ backgroundColor: props.color, width: props.width, height: props.height }} onClick={() => setClick(!clicked)}>
             {clicked ?
                 props.name ?
-                    <div className='card-border' style={{}}>
-                        <div className='card-content-info' style={{
-                            color: props.color === 'black' ? 'white' : 'black',
-                            fontSize: props.color === 'black' ? '.75em' : '.9em',
-                            border: props.color === 'black' ? '2px solid white' : '2px solid black',
-                            padding: props.color === 'black' ? '0 10px 0 10px' : '0 20px 0 20px',
-                            borderRadius: '10px'
-                        }}>
-                            <div className='card-info-title'>{props.realName ? props.realName : props.name}</div>
-                            <div className='card-content-data'>
-                                <div>{props.date}</div>
-                                <div>{props.company}</div>
-                            </div>
-                            <div className='card-info'>{props.info}</div>
-                            <div className='card-link'>
-                                {props.link !== undefined ?
-                                    <a href={props.link} target="blank" style={{
-                                        textAlign: 'right',
-                                        color: props.color === 'black' ? 'white' : 'black',
-                                        left: '10em',
-                                        width: '10em',
-                                        textDecoration: 'none',
-                                        backgroundColor: props.color === 'black' ? 'grey' : 'lightgrey',
-                                        borderRadius: '5px',
-                                        border: props.color === 'black' ? '2px solid white' : '2px solid black'
-                                    }}>Check it out</a>
-                                    :
-                                    <a>Not currently hosted</a>
-                                }
-                            </div>
+                    <div className='card-content-info' style={{
+                        color: props.color === 'black' ? 'white' : 'black',
+                        fontSize: props.color === 'black' ? '.75em' : '.9em',
+                        padding: props.color === 'black' ? '20px' : '25px',
+                        borderRadius: '10px'
+                    }}>
+                        <div className='card-info-title'>{props.realName ? props.realName : props.name}</div>
+                        <div className='card-content-data'>
+                            <div>{props.date}</div>
+                            <div>{props.company}</div>
+                        </div>
+                        <div className='card-info'>{props.info}</div>
+                        <div className='card-link'>
+                            {props.link !== undefined ?
+                                <a href={props.link} target="blank" style={{
+                                    textAlign: 'right',
+                                    color: props.color === 'black' ? 'white' : 'black',
+                                    left: '10em',
+                                    width: '10em',
+                                    textDecoration: 'none',
+                                    padding: '5px',
+                                    borderRadius: '5px',
+                                    border: props.color === 'black' ? '1px solid white' : '1px solid black'
+                                }}>Check it out</a>
+                                :
+                                <a>Not currently hosted</a>
+                            }
                         </div>
                     </div>
                     :
@@ -63,13 +60,15 @@ const IntroCard = (props) => {
                 :
                 props.name ?
                     <div className='card-content'>
-                        <div className={props.overlay ? 'img-overlay' : ''}></div>
+                        <div className={props.overlay ? 'img-overlay' : ''} />
 
                         <img
                             style={{
-                                backgroundColor: props.color,
-                                width: props.width,
-                                height: props.height
+                                backgroundColor: 'props.color',
+                                width: ['Stampd', 'Operators'].includes(props.name) ? '12em' : props.width,
+                                height: ['Stampd', 'Operators'].includes(props.name) ? '12em' : props.height,
+                                paddingTop: props.name == 'Stampd' && '1em',
+                                paddingLeft: props.name == 'Stampd' && '7em'
                             }}
                             src={props.img}
                             alt={props.name} />
@@ -80,7 +79,7 @@ const IntroCard = (props) => {
                     :
                     <img
                         style={{
-                            backgroundColor: props.color,
+                            backgroundColor: 'props.color',
                             width: '80%',
                         }}
                         src={props.img}

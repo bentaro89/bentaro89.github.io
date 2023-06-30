@@ -10,7 +10,7 @@ const Projects = () => {
             <div className='main-container'>
                 <div style={{ width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'left', paddingLeft: '4em' }}>
                     <h3>
-                        I have worked on...
+                        Some projects I have worked on...
                     </h3>
                 </div>
                 <div className='intro-cards'>
@@ -35,8 +35,8 @@ const Projects = () => {
                 </div>
             </div>
             <Hoop
-                hoopTop='168.2em'
-                rimTop='187.3em' />
+                hoopTop='156.2em'
+                rimTop='175.3em' />
         </div>
     )
 }

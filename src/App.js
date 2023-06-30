@@ -65,8 +65,8 @@ function scrollRotate() {
         <Experience/>
         <Projects/>
         <Hoop
-          hoopTop='200em'
-          rimTop='219.05em'/>
+          hoopTop='190em'
+          rimTop='209.1em'/>
         <Footer/>
       </div>
     </div>

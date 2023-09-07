@@ -1,24 +1,22 @@
 import betmate from '../projects/Betmate.png';
 import RTB from '../projects/RaiseTheBarMic.svg';
 import DOC from '../projects/DOC2.png';
-import ZT from '../projects/ZodiacTime.png';
 import SLAR from '../projects/SLAR.png'
-import wifi from '../projects/wifi.png'
 import stampd from '../projects/stampd_logo.png'
 import operators from '../projects/operators_logo.png'
 
 export const projectCards = [
     {
-        'name': 'Operators',
+        'name': 'Plus Eight',
         'date': 'On Going',
         'company': 'Independent',
         'icon': operators,
-        'color': 'grey',
+        'color': '#22242F',
         'tools': 'React Native',
-        'info': 'While initially having this idea in high school, Operators is an engaging game that puts your puzzle-solving and math skills to the test. Strategically combine operations to reach subsequent numbers with limited steps.',
+        'info': 'While initially having this idea in high school, Plus Eight is an engaging game that puts your puzzle-solving and math skills to the test. Strategically combine operations to reach subsequent numbers with limited steps.',
         'width': '22em',
         'height': '14em',
-        'overlay': true,
+        'overlay': false,
         'link': 'https://apps.apple.com/ag/app/operators/id1636821697?platform=iphone'
     },
     {

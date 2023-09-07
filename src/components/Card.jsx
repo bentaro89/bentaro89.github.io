@@ -9,7 +9,7 @@ const IntroCard = (props) => {
             {clicked ?
                 props.name ?
                     <div className='card-content-info' style={{
-                        color: props.color === 'black' ? 'white' : 'black',
+                        color: ['RTB', 'Plus Eight'].includes(props.name) ? 'white' : 'black',
                         fontSize: props.color === 'black' ? '.75em' : '.9em',
                         padding: props.color === 'black' ? '20px' : '25px',
                         borderRadius: '10px'
@@ -24,16 +24,16 @@ const IntroCard = (props) => {
                             {props.link !== undefined ?
                                 <a href={props.link} target="blank" style={{
                                     textAlign: 'right',
-                                    color: props.color === 'black' ? 'white' : 'black',
+                                    color: ['RTB', 'Plus Eight'].includes(props.name) ? 'white' : 'black',
                                     left: '10em',
                                     width: '10em',
                                     textDecoration: 'none',
                                     padding: '5px',
                                     borderRadius: '5px',
-                                    border: props.color === 'black' ? '1px solid white' : '1px solid black'
+                                    border: ['RTB', 'Plus Eight'].includes(props.name) ? '1px solid white' : '1px solid black'
                                 }}>Check it out</a>
                                 :
-                                <a>Not currently hosted</a>
+                                <p>Not currently hosted</p>
                             }
                         </div>
                     </div>
@@ -65,10 +65,11 @@ const IntroCard = (props) => {
                         <img
                             style={{
                                 backgroundColor: 'props.color',
-                                width: ['Stampd', 'Operators'].includes(props.name) ? '12em' : props.width,
-                                height: ['Stampd', 'Operators'].includes(props.name) ? '12em' : props.height,
-                                paddingTop: props.name == 'Stampd' && '1em',
-                                paddingLeft: props.name == 'Stampd' && '7em'
+                                width: ['Stampd', 'Plus Eight'].includes(props.name) ? '12em' : props.width,
+                                height: ['Stampd', 'Plus Eight'].includes(props.name) ? '12em' : props.height,
+                                paddingTop: props.name === 'Stampd' && '1em',
+                                paddingLeft: props.name === 'Stampd' && '7em',
+                                objectFit: ['Plus Eight'].includes(props.name) && 'contain'
                             }}
                             src={props.img}
                             alt={props.name} />

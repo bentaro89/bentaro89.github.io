@@ -41,7 +41,6 @@ function scrollRotate() {
             src={Basketball} 
             id='basketball-ball' 
             alt='basketball'
-            // style={{}}
           />
         </div>
         <div className='name-container'>

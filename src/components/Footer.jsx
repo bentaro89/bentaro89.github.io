@@ -3,7 +3,7 @@ import { data } from '../assets/data/links'
 import './stylesheets/Footer.scss';
 
 const Footer = () => {
-    return(
+    return (
         <div className='footer'>
             <div className='footer-links'>
                 {data.map((sm, i) => (
@@ -12,7 +12,6 @@ const Footer = () => {
                     </a>
                 ))}
             </div>
-            
         </div>
     )
 }

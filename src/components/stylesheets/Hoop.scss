@@ -10,10 +10,25 @@
   height: 30em;
 }
 
+.photo-hoop {
+  position: absolute;
+  margin: auto;
+  z-index: 1;
+  height: 30em;
+}
+
 .basketball-rim {
   position: absolute;
   margin: auto;
   z-index: 1;
+  height: 10.5em;
+  transform: rotate(.7deg);
+}
+
+.photo-rim {
+  position: absolute;
+  margin: auto;
+  z-index: 0;
   height: 10.5em;
   transform: rotate(.7deg);
 }

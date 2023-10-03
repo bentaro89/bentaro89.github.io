@@ -4,7 +4,7 @@ import NavBar from './components/NavBar'
 import Introduction from './components/Introduction'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
-import Hoop from './components/Hoop'
+import PhotoHoop from './components/PhotoHoop'
 import Typewriter from 'typewriter-effect';
 
 import Basketball from './assets/basketball.svg'
@@ -50,22 +50,28 @@ function scrollRotate() {
             <Typewriter
               onInit={(typewriter) => {
                 typewriter.typeString('Hi! My name is Ben!')
-                .callFunction(() => {
-                console.log('String typed out!');
-              })
               .start();
               }}
             />
           }
         </div>
         
-        
         <Introduction/>
         <Experience/>
         <Projects/>
-        <Hoop
-          hoopTop='190em'
-          rimTop='209.1em'/>
+        <PhotoHoop
+          hoopTop='191em'
+          rimTop='210.1em'
+        />
+
+        <div className='typewriter-container'>
+          <Typewriter
+            onInit={(typewriter) => {
+                typewriter.typeString('Thank you for your time!')
+                .start();
+            }}
+          />
+        </div>
         <Footer/>
       </div>
     </div>

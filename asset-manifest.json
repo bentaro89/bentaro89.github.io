@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.68a689cd.chunk.css",
-    "main.js": "/static/js/main.5a1bdcc3.chunk.js",
-    "main.js.map": "/static/js/main.5a1bdcc3.chunk.js.map",
+    "main.css": "/static/css/main.af1676ff.chunk.css",
+    "main.js": "/static/js/main.746e42a5.chunk.js",
+    "main.js.map": "/static/js/main.746e42a5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5e2b3126.js",
     "runtime-main.js.map": "/static/js/runtime-main.5e2b3126.js.map",
-    "static/js/2.317404a9.chunk.js": "/static/js/2.317404a9.chunk.js",
-    "static/js/2.317404a9.chunk.js.map": "/static/js/2.317404a9.chunk.js.map",
+    "static/js/2.06beff0a.chunk.js": "/static/js/2.06beff0a.chunk.js",
+    "static/js/2.06beff0a.chunk.js.map": "/static/js/2.06beff0a.chunk.js.map",
     "static/js/3.8cce11d3.chunk.js": "/static/js/3.8cce11d3.chunk.js",
     "static/js/3.8cce11d3.chunk.js.map": "/static/js/3.8cce11d3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.68a689cd.chunk.css.map": "/static/css/main.68a689cd.chunk.css.map",
-    "static/js/2.317404a9.chunk.js.LICENSE.txt": "/static/js/2.317404a9.chunk.js.LICENSE.txt",
-    "static/media/Benedict_Tedjokusumo_Resume.f5adc330.pdf": "/static/media/Benedict_Tedjokusumo_Resume.f5adc330.pdf",
+    "static/css/main.af1676ff.chunk.css.map": "/static/css/main.af1676ff.chunk.css.map",
+    "static/js/2.06beff0a.chunk.js.LICENSE.txt": "/static/js/2.06beff0a.chunk.js.LICENSE.txt",
+    "static/media/Benedict-Tedjokusumo-Resume.615a3473.pdf": "/static/media/Benedict-Tedjokusumo-Resume.615a3473.pdf",
     "static/media/Betmate.77e8679b.png": "/static/media/Betmate.77e8679b.png",
     "static/media/DALI-logo.b391036b.png": "/static/media/DALI-logo.b391036b.png",
     "static/media/DOC2.e74650dc.png": "/static/media/DOC2.e74650dc.png",
@@ -31,13 +31,14 @@
     "static/media/instagram.482d4132.svg": "/static/media/instagram.482d4132.svg",
     "static/media/linkedin.bdd46eac.svg": "/static/media/linkedin.bdd46eac.svg",
     "static/media/operators_logo.95fcdaad.png": "/static/media/operators_logo.95fcdaad.png",
+    "static/media/pp-hoop.566c1531.svg": "/static/media/pp-hoop.566c1531.svg",
     "static/media/stampd_logo.4753ddc8.png": "/static/media/stampd_logo.4753ddc8.png",
     "static/media/steph.9c8bd4f9.svg": "/static/media/steph.9c8bd4f9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5e2b3126.js",
-    "static/js/2.317404a9.chunk.js",
-    "static/css/main.68a689cd.chunk.css",
-    "static/js/main.5a1bdcc3.chunk.js"
+    "static/js/2.06beff0a.chunk.js",
+    "static/css/main.af1676ff.chunk.css",
+    "static/js/main.746e42a5.chunk.js"
   ]
 }
